@@ -1,0 +1,56 @@
+@font-face{
+	font-family: dinL;
+}
+body {
+	font-family: dinL;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #f6f6f6;
+}
+#content{
+	margin: auto;
+	width: 900px;
+	box-shadow: 2px 2px 5px grey;
+
+}
+#header{
+	float: left;
+	width: 900px;
+	background-color: #fff;
+	
+}
+
+#header #logoidentite #logo{
+
+	float: left;
+}
+#header ul {
+	float: right;
+	display: flex;	
+	list-style: none;
+
+}
+#header ul li {
+    margin-right: 17px;
+	padding-top: 20px ;
+	font-size:13px;
+}
+#header ul li a {
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	color: #656565;
+}
+#header ul li a:hover , #header ul li a.selected{
+	color: #000004;
+}
+
+article{
+	width: 900px;
+	display: inline-block;
+	background-color: #f6f6f6
+
+
+}
+ 

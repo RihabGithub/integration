@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>learnCss</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.overlay:hover  {
+  opacity: 0.8;
+  
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+	</style>
+</head>
+
+<body>
+<div id="content">
+		<div id="header">
+			<div id="logoidentite">
+			<div id="logo">
+				<img src="images/logo.jpg" alt="logo" width="140" height="60">
+			</div>
+		    </div>
+        <ul>
+        	<li><a href="#" class="selected">home</a></li>
+        	<li><a href="">work</a></li>
+        	<li><a href="">about</a></li>
+        	<li><a href="">blog</a></li>
+        	<li><a href="">contact</a></li>
+        	<li><a href="">buy theme</a></li>
+        </ul>
+	</div>
+
+<article class="row">
+	<div id="slideshow" >
+		<div class="col-md-6">
+		  <img src="images/art1.jpg" alt="article" width="453" height="314">
+        </div>
+        <div class="col-md-6" style="padding-left: 60px;">
+        	<h1 style="font-weight: bold;">Digital.Modern.Creative</h1>
+        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat non nobis alias adipisci temporibus dolorem architecto voluptates voluptatem quasi, consectetur recusandae ab, illo dolor </p>
+        	<p style="font-weight: bold;">work with as now</p>
+        </div>
+	</div>
+	<section class="col-md-12" style="padding: 0">
+	<div class="col-md-4"><img src="images/art2.jpg" alt="art2" width="300" height="300">
+	<div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+	</div>
+	<div class="col-md-4"><img src="images/art3.jpg" alt="art3" width="300" height="300">
+	<div class="overlay">
+    <div class="text">Hello World</div>
+	</div>
+  </div>
+	<div class="col-md-4"><img src="images/art4.jpg" alt="art4" width="300" height="300">
+	<div class="overlay">
+    <div class="text">Hello World</div>
+	</div>
+	</div>
+    </section>
+    <section class="col-md-12" style="padding: 0">
+    <div class="col-md-4" id="demo"><img src="images/art5.jpg" alt="art2" width="300" height="300" id="demo">
+    	<div class="overlay">
+    <div class="text">Hello World</div>
+	</div>
+    </div>
+	<div class="col-md-4"><img src="images/art6.jpg" alt="art3" width="300" height="300" id="demo"><div class="overlay">
+    <div class="text">Hello World</div>
+	</div>
+	</div>
+	<div class="col-md-4"><img src="images/art7.jpg" alt="art4" width="300" height="300" id="demo">
+	<div class="overlay">
+    <div class="text">Hello World</div>
+	</div></div>	
+    </section>
+    <section class="col-md-12" style="padding: 0">
+    <div class="col-md-4" ><img src="images/art7.jpg" alt="art2" width="300" height="300" id="demo"><div class="overlay">
+    <div class="text">Hello World</div>
+	</div></div>
+	<div class="col-md-4"><img src="images/art8.jpg" alt="art3" width="300" height="300" id="demo"><div class="overlay">
+    <div class="text">Hello World</div>
+	</div></div>
+	<div class="col-md-4"><img src="images/art3.jpg" alt="art4" width="300" height="300" id="demo"><div class="overlay">
+    <div class="text">Hello World</div>
+	</div></div>
+    </section>
+</article>
+</div>
+<!--<script>
+document.getElementById("demo").addEventListener("mouseover", mouseOver);
+document.getElementById("demo").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+    document.getElementById("demo").style.background-color = "red";
+    document.getElementById("demo").innerHTML = "New text";
+}
+
+function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+}
+</script>	-->
+</body>
+</html>
